@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+box-sizing: border-box;
+}
+
+body{
+      background-image: url(./img/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+      font-family: 'Poppins',
+      sans-serif;
+      background-size: cover;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      
+      background-position: center center;
+}
+h1{
+      color: white;
+      font-size: 50px;
+}
+.countdown-container{
+      display: flex;
+      color: aliceblue;
+
+}
+.bigtext{
+      font-size: 6rem;
+      line-height: 1;
+      margin: 0 2rem;
+      font-weight: bold;
+}
+.countdown-el{
+      text-align: center;
+}
+.countdown-el span{
+      font-size: 1.4rem;
+}
