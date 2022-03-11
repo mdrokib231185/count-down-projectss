@@ -6,7 +6,7 @@ const minutesEl = document.getElementById('minutes')
 const secondsEl = document.getElementById('second')
 
 
-const newYears = '12 march 2022';
+const newYears = '1 jan 2022';
 function countDown () {
       const newYearsDate = new Date(newYears);
       const currentDate = new Date();
